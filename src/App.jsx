@@ -1,0 +1,21 @@
+import { useState } from "react";
+
+import "./App.css";
+import Currency from "./components/Currency";
+
+function App() {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "centeer",
+        alignItems: "center",
+      }}
+    >
+      <Currency></Currency>
+    </div>
+  );
+}
+
+export default App;
